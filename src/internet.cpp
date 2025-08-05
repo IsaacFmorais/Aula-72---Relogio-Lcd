@@ -1,11 +1,9 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include "internal.h"
-
+#include"senhas.h"
 
 //----------- Configurações do Wi-fi -----------
-const char *SSID = "SALA 09";   // Nome do WiFi
-const char *SENHA = "info@134"; // Senha do WiFi
 const unsigned long tempoEsperaConexao = 15000;
 const unsigned long tempoEsperaReconexao = 5000;
 
